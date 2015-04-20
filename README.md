@@ -42,7 +42,7 @@ var myLayout = new SplitLayout(200,200,{
 
 # About Me
 
-I'm a long time developer, but relativly new with managing my own Github repos. I appreciate your patience and guidance in helping me us it and making anything I throw up, better! 
+I'm a long time developer, but relatively new with managing my own Github repos. I appreciate your patience and guidance in helping me use it and making anything I throw up, better! 
 
 Thanks,
 -steve
