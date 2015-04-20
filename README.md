@@ -4,9 +4,12 @@ Javascript for a simple two panel layout with splitter to drag and resize column
 
 This is a very simple HTML template for a fluid, two column layout, that is split and can be resized by dragging the splitter.
 
+![Screenshot](https://dl.dropbox.com/s/p83y6zv43vkk1id/screenshot.png)
+
 Include the javascript file in the head of your HTML:
 ```HTML
-<script language="JavaScript" type="text/javascript" src="http://cdn.firemap.io/js/splitLayout.js">
+<script language="JavaScript" type="text/javascript" 
+	src="http://cdn.firemap.io/js/splitLayout.js"></script>
 ```
 Then add the the HTML elements:
 
