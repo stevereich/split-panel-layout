@@ -6,11 +6,10 @@ This is a very simple HTML template for a fluid, two column layout, that is spli
 
 Include the javascript file in the head of your HTML:
 
-`<script language="JavaScript" type="text/javascript" src="http://cdn.firemap.io/js/splitLayout.js">
+<script language="JavaScript" type="text/javascript" src="http://cdn.firemap.io/js/splitLayout.js">
 
 Then add the the HTML elements:
 
-```
 <div id="container">
 	<div id="nav">
 		Navigation Panel
@@ -19,10 +18,10 @@ Then add the the HTML elements:
 		Content Panel
 	</div>
 </div>
-```
+
 
 Then, simply initialize SplitLayout(initialNavWidth(Number),minimumWidth(Number),navCSS(object),contentCSS(object))
-```
+
 var myLayout = new SplitLayout(200,200,{
 	"background-color":"#F5F5F5",
 	"padding":"10px",
@@ -35,5 +34,3 @@ var myLayout = new SplitLayout(200,200,{
 	"font-family":"Arial,sans-serif",
 	"font-size":"10pt"
 }) 
-```
-
