@@ -39,3 +39,10 @@ var myLayout = new SplitLayout(200,200,{
 	"font-size":"10pt"
 }) 
 ```
+
+# About Me
+
+I'm a long time developer, but relativly new with managing my own Github repos. I appreciate your patience and guidance in helping me us it and making anything I throw up, better! 
+
+Thanks,
+-steve
