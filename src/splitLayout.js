@@ -64,9 +64,10 @@ var SplitLayout = function(navWidth,minWidth,navStyle,contentStyle){
 		if(!go){return};
 		if((new RegExp("(?:^|;\\s*)" + encodeURIComponent("winposition").replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=")).test(document.cookie)){
 			var winp = decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent("winposition").replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null;
-			
-			nav.style.right = winp.split('|')[0];
-			content.style.left = winp.split('|')[1];
+			if(winp!=null){
+				nav.style.right = winp.split('|')[0];
+				content.style.left = winp.split('|')[1];
+			}
 		}
 		splitter.onmousedown = function() {
 			document.onmousemove = function(e) {
